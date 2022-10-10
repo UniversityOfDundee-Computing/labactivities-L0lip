@@ -1,17 +1,16 @@
-#DCE0D9 
-#01161E
-#FF206E
-#2E86AB
-#21897E
 
 
-url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@100&display=swap');
+@font-face {
+    font-family: Dancing;
+    src: url(https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@100&display=swap);
+    font-weight: bold;
+}
 
 
 
 
 body{
-    background-color:#DCE0D9;
+    background-color:#385521;
 }
 
 .menu{
@@ -21,5 +20,5 @@ body{
 }
 
 h1{
-    font-family: 'Dancing Script', Dancing,;
+    font-family: Dancing;
 }
