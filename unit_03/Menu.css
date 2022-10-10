@@ -1,7 +1,7 @@
 
 
 @font-face {
-    font-family: Dancing;
+    font-family: "Dancing";
     src: url(https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@100&display=swap);
     font-weight: bold;
 }
@@ -20,5 +20,6 @@ body{
 }
 
 h1{
-    font-family: Dancing;
+    font-family: "Dancing";
+    
 }
