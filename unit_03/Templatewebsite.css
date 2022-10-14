@@ -76,3 +76,8 @@ nav li a:hover {
     background-color: #aaaaaa;
     float: right;
 }
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+}
