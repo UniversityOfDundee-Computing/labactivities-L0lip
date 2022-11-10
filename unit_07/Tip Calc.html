@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>Tip Calculator</h1>
+            <p>Enter Total Amount</p>
+                <input class="enter" type="text" id="Amount">
+                <input type="submit" onclick="submit()">
+                <br>
+        </div>
+        <div>   
+            <p>Select tip preferences</p>
+            <div class="container">
+                <button type="button" id="T5" onclick="T5()">5%</button>
+                <button type="button" id="T10" onclick="T10()">10%</button>
+                <button type="button" id="T25" onclick="T25()">25%</button>
+            </div>
+            <br>
+            <button type="button" id="Tbig" onclick="Tbig()">Largest from 25% or £2+10%</button>
+            <br>
+            <p>Tip to give</p>
+            <p id="input">£xx.xx</p>
+        </div> 
+    </main>
+</body>
+</html>
