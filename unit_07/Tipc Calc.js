@@ -6,7 +6,7 @@ var tip2;
 
 function submit() {
     amount = document.getElementById("Amount").value;
-    alert("Amount has been entered already");
+    alert("Amount has been entered");
     return amount;
     
 }
