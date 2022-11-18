@@ -12,26 +12,31 @@ function A0() {
 function A050() {
     amount = amount + 0.50;
     $("#bill").html("£" + amount);
+    Console.log(amount);
 }
 
 function A1() {
     amount = amount + 1;
     $("#bill").html("£" + amount);
+    Console.log(amount);
 }
 
 function A5() {
     amount = amount + 5;
     $("#bill").html("£" + amount);
+    Console.log(amount);
 }
 
 function A10() {
     amount = amount + 10;
     $("#bill").html("£" + amount);
+    Console.log(amount);
 }
 
 function A25() {
     amount = amount + 25;
     $("#bill").html("£" + amount);
+    Console.log(amount);
 }
 
 function A50() {
