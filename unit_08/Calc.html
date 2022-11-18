@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="Calc.js"></script>
+</head>
+<body>
+    <main class="text-center">
+        <div>
+            <h1 class="text-secondary m-4">Tip Calculator</h1>
+            <p>select total bill amount</p>
+
+            <div class="container">
+                <button type="button" class="btn btn-dark btn-lg" id="B0.50" onclick="B050()">£0.50</button>
+                <button type="button" class="btn btn-dark btn-lg" id="B1" onclick="B1()">£1</button>
+                <button type="button" class="btn btn-dark btn-lg" id="B5" onclick="B5()">£5</button>
+            </div>
+            <div class="container">
+                <button type="button" class="btn btn-dark btn-lg" id="B10" onclick="B10()">£10</button>
+                <button type="button" class="btn btn-dark btn-lg" id="B0" onclick="B0()">Reset</button>
+                <button type="button" class="btn btn-dark btn-lg" id="B25" onclick="B25()">£25</button>
+            </div>
+            <div class="container">
+                <button type="button" class="btn btn-dark btn-lg" id="B50" onclick="B50()">£50</button>
+                <button type="button" class="btn btn-dark btn-lg" id="B75" onclick="B75()">£75</button>
+                <button type="button" class="btn btn-dark btn-lg" id="B100" onclick="B100()">£100</button>
+            </div>
+            <br>
+        </div>
+        <div>   
+            <p>Select tip preferences</p>
+            <div class="container">
+                <button type="button" class="btn btn-dark btn-lg" id="T5" onclick="Tip5()">5%</button>
+                <button type="button" class="btn btn-dark btn-lg" id="T10" onclick="Tip10()">10%</button>
+                <button type="button" class="btn btn-dark btn-lg" id="T25" onclick="Tip25()">25%</button>
+            </div>
+            <br>
+            <button type="button" class="btn btn-dark btn-lg" id="Tbig" onclick="bigTip()">Largest from 25% or £2+10%</button>
+            <br>
+            <p>Tip to give</p>
+            <p id="input" class="fs-3 text-secondary">£xx.xx</p>
+        </div> 
+    </main>
+</body>
+</html>
