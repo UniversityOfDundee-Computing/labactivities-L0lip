@@ -4,52 +4,52 @@ var tip;
 var tip1;
 var tip2;
 
-function B0() {
+function A0() {
     amount = 0
     $("#bill").html("£" + amount);
 }
 
-function B050() {
+function A050() {
     amount = amount + 0.50;
     $("#bill").html("£" + amount);
 }
 
-function B1() {
+function A1() {
     amount = amount + 1;
     $("#bill").html("£" + amount);
 }
 
-function B5() {
+function A5() {
     amount = amount + 5;
     $("#bill").html("£" + amount);
 }
 
-function B10() {
+function A10() {
     amount = amount + 10;
     $("#bill").html("£" + amount);
 }
 
-function B25() {
+function A25() {
     amount = amount + 25;
     $("#bill").html("£" + amount);
 }
 
-function B50() {
+function A50() {
     amount = amount + 50;
     $("#bill").html("£" + amount);
 }
 
-function B75() {
+function A75() {
     amount = amount + 75;
     $("#bill").html("£" + amount);
 }
 
-function B100() {
+function A100() {
     amount = amount + 100;
     $("#bill").html("£" + amount);
 }
 
-function T5() {
+function Tip5() {
     tip = (amount / 100) * 5;
     tip = tip.toFixed(2);
     choice();
@@ -57,14 +57,14 @@ function T5() {
 
 }
 
-function T10() {
+function Tip10() {
     tip = (amount / 100) * 10;
     tip = tip.toFixed(2);
     choice();
     $("#input").html("£" + tip);
 }
 
-function T25() {
+function Tip25() {
     tip = (amount / 100) * 25;
     tip = tip.toFixed(2);
     choice();
@@ -72,7 +72,7 @@ function T25() {
 
 }
 
-function Tbig() {
+function bigTip() {
     tip1 = (amount / 100) * 25;
     tip2 = (amount / 100) * 10 + 2;
     if (tip1 > tip2) {
