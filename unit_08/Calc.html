@@ -7,6 +7,7 @@
     <title>Tip Calculator</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="Calc.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </head>
 <body>
     <main class="text-center">
@@ -31,6 +32,10 @@
             </div>
             <br>
         </div>
+        <div>
+            <p id="bill"></p>
+        </div>
+        <br>
         <div>   
             <p>Select tip preferences</p>
             <div class="container">
@@ -41,7 +46,7 @@
             <br>
             <button type="button" class="btn btn-dark btn-lg" id="bigTip" onclick="bigTip()">Largest from 25% or £2+10%</button>
             <br>
-            <p>Tip to give</p>
+            <p class="mt-2">Tip to give</p>
             <p id="input" class="fs-3 text-secondary">£xx.xx</p>
         </div> 
     </main>
